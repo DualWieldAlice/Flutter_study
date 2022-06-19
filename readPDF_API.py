@@ -123,8 +123,8 @@ def main():
     #PDFをテキストに変換
     inputs = get_text_from_pdf(args.input, limit=args.limit)
 
-    #APIのキーを取得(無料バージョン，竹田の登録キー)
-    API_KEY = "72ffe42e-e038-624f-1f85-d921a5b263a4:fx"
+    #APIのキーを取得
+    API_KEY = ******** //自分の登録キーを入れる
 
     with open(path + "Sample.txt", "w", encoding="utf-8") as f_text:
 
