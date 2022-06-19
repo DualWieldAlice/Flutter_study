@@ -9,6 +9,7 @@ class Footer extends StatefulWidget {
   State<Footer> createState() => _FooterState();
 }
 
+//このコメントを追加してみました
 class _FooterState extends State<Footer> {
 
   @override
